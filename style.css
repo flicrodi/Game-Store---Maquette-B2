@@ -1,0 +1,1236 @@
+/* ========== GENERAL STYLES ========== */
+body {
+  margin: 0;
+  background-color: #050017;
+}
+
+/* ========== HEADER STYLES ========== */
+header {
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+}
+
+.header-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.header-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(40%);
+}
+
+/* ========== NAVIGATION BAR STYLES ========== */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.buttonlogo {
+  color: white;
+  text-decoration: none;
+  font-family: 'Designer', sans-serif;
+  font-size: 20px;
+}
+
+.highlight2 {
+  color: #A15DCE !important;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 100px;
+  text-transform: uppercase;
+  font-family: 'Garet-book', sans-serif;
+  font-size: 12px;
+}
+
+nav ul li {
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #A15DCE;
+}
+
+/* ========== BUTTON STYLES ========== */
+.signup-button {
+  background-color: #130E44;
+  color: white;
+  font-weight: 100;
+}
+
+.signup-button:hover {
+  background-color: #004494 !important; /* Changez cette couleur selon vos préférences */
+}
+
+.login-button {
+  background-color: #7708C7;
+  color: white;
+  font-weight: 100;
+}
+
+.nav-buttons a.buttonnav {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+  font-family: 'Designer', sans-serif;
+}
+
+.nav-buttons a.buttonnav:hover {
+  background-color: #A15DCE;
+}
+
+/* ========== HERO SECTION STYLES ========== */
+.hero-section {
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: 2;
+  padding: 100px 20px;
+  margin: 50px 0;
+  height: auto;
+}
+
+.paragraph-group {
+  margin: 20px 0; /* Ajustez cette valeur pour l'espacement entre le groupe de paragraphes et les autres éléments */
+}
+
+.hero-section p {
+  font-family: 'Garet-book', sans-serif;
+  font-size: 18px;
+  line-height: 1.5; /* Modifiez la ligne si nécessaire */
+  margin: 0; /* Enlève la marge par défaut pour éviter un double espacement */
+}
+
+.bordered-title {
+  font-family: 'Designer', sans-serif;
+  font-size: 50px;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+p {
+  font-family: 'Garet-book', sans-serif;
+  font-size: 15px;
+}
+
+.button-container {
+  margin-top: 20px; /* Ajustez pour l'espacement entre le groupe de paragraphes et les boutons */
+  display: flex; /* Utilise flexbox pour la disposition */
+  justify-content: center; /* Centre les boutons horizontalement */
+}
+
+.button {
+  background-color: #A15DCE; /* Couleur par défaut */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 0 10px; /* Marge entre les boutons */
+  display: inline-block;
+  font-family: 'Designer', sans-serif; /* Remplacez 'VotrePolice' par le nom de la police souhaitée */
+  font-size: 15px; /* Ajustez la taille de la police à la valeur désirée */
+}
+
+.button.details {
+  background-color: #130E44; /* Couleur spécifique pour le bouton Détails */
+}
+
+.button:hover {
+  background-color: #8E4BCE; /* Couleur au survol */
+}
+
+.button.details:hover {
+  background-color: #004494; /* Couleur au survol pour le bouton Détails */
+}
+
+/* Ajout de la classe pour l'espacement général */
+.custom-spacing {
+  margin: 30px; /* Ajustez cette valeur selon vos besoins */
+}
+
+.highlight {
+  color: #ffffff; /* Changer la couleur en blanc */
+}
+
+.highlight2 {
+  color: #8E4BCE; /* Changer la couleur en blanc */
+}
+
+
+/* ========== PAGE TITLE STYLES ========== */
+.page-title {
+  margin: 20px 0; /* Espacement général pour la section */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-title h1 {
+  font-family: 'Designer', sans-serif;
+  font-size: 30px;
+  margin-bottom: 20px; /* Espace entre le titre et le contenu suivant */
+}
+
+.tendance {
+  color: #ffffff;
+}
+
+.actuelle {
+  color: #8E4BCE;
+}
+
+.view-all-button {
+  background-color: #A15DCE;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px; /* Espace entre les boutons et le contenu précédent */
+  font-family: 'Designer', sans-serif;
+  font-size: 15px;
+}
+
+.view-all-button:hover {
+  background-color: #8E4BCE;
+}
+
+.spacing {
+  margin: 50px 0; /* Ajustez la valeur pour modifier l'espacement à votre guise */
+}
+
+/* ========== MAIN STYLES ========== */
+main {
+  margin-left: 150px;  /* Ajuste cette valeur selon tes besoins */
+  margin-right: 150px; /* Ajuste cette valeur selon tes besoins */
+  margin-top: 100px;    /* Ajoute une marge en haut pour descendre la section main */
+  margin-bottom: 20px; /* Ajuste cette valeur selon tes besoins */
+}
+
+.page-title {
+  margin: 20px 0; /* Espace uniforme au-dessus et au-dessous du titre */
+  display: flex; /* Utilise flexbox pour l'alignement */
+  justify-content: space-between; /* Espace entre les éléments */
+  align-items: center; /* Centre les éléments verticalement */
+}
+
+.page-title h1 {
+  font-family: 'Designer', sans-serif;
+  font-size: 30px;
+  margin: 0; /* Enlève la marge par défaut du h1 */
+}
+
+.view-all-button {
+  background-color: #A15DCE;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.view-all-button:hover {
+  background-color: #8E4BCE;
+}
+
+
+/* ====== STYLES DE LA SECTION PRODUIT ====== */
+
+.highlight3 {
+  color: white;
+}
+
+.highlight4 {
+  color: #8E4BCE;
+}
+
+.product-card {
+  /* Alignement horizontal des deux sous-blocs et espace entre eux */
+  display: flex;
+  align-items: flex-start;
+  gap: 20px; /* Espace entre l'image et les informations produit */
+  padding: 20px; /* Espace interne autour du bloc */
+  border-radius: 8px; /* Coins arrondis */
+  margin-top: 30px; /* Espace au-dessus du bloc produit */
+  background-color: #09012A;
+}
+
+.product-card img {
+  margin-top: 10px; /* Ajustez selon vos besoins */
+  margin-bottom: 10px; /* Ajustez selon vos besoins */
+}
+
+.product-image img {
+  width: 600px; /* Ajustez la largeur selon vos besoins */
+  height: auto; /* Garde le ratio de l'image */
+  border-radius: 8px; /* Coins arrondis de l'image */
+}
+
+
+.product-info {
+  color: white; /* Couleur de texte principale */
+  max-width: 600px; /* Largeur maximale du bloc texte */
+}
+
+.product-genre {
+  color: #A15DCE; /* Couleur violette */
+  font-size: 14px; /* Taille de police réduite */
+  margin-bottom: 10px; /* Espace en dessous */
+}
+
+.product-title {
+  font-size: 24px; /* Taille de police du titre */
+  margin: 0; /* Pas de marge par défaut */
+  margin-top: 10px;
+}
+
+.like-icon img {
+  width: 30px; /* Taille plus petite pour l'icône */
+  height: auto; /* Maintient le ratio de l'image */
+  vertical-align: middle; /* Aligne l'icône avec le texte */
+  cursor: pointer; /* Apparence de clic pour simuler un bouton de like */
+  transition: transform 0.2s ease; /* Effet au survol */
+}
+
+.like-icon img:hover {
+  transform: scale(1.2); /* Effet de zoom au survol pour attirer l'attention */
+}
+
+.like-icon {
+  margin-left: 250px; /* Ajustez cette valeur pour déplacer l'icône à droite */
+  display: inline-block; /* Permet la gestion de l'espacement */
+}
+
+.product-rating {
+  color: #ffc107; /* Couleur jaune pour les étoiles */
+  margin: 10px 0; /* Espace au-dessus et au-dessous */
+}
+
+.product-description {
+  font-size: 16px; /* Taille de police standard */
+  line-height: 1.5; /* Hauteur de ligne pour meilleure lisibilité */
+  margin-top: 15px;
+}
+
+.product-pricing {
+  font-size: 18px; /* Taille de police des prix */
+  margin: 10px 0; /* Espace au-dessus et au-dessous */
+}
+
+.original-price {
+  color: #A15DCE; /* Couleur violette pour le prix d'origine */
+  text-decoration: line-through; /* Texte barré */
+  margin-right: 10px; /* Espace à droite pour séparer du prix remisé */
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.discounted-price {
+  color: #ffffff; /* Couleur blanche pour le prix remisé */
+  font-size: 22px; /* Taille de police plus grande */
+  font-weight: bold; /* Texte en gras */
+  margin-top: 15px;
+}
+
+.button-container1 {
+  display: flex; /* Aligne les boutons horizontalement */
+  gap: 10px; /* Espace entre les boutons */
+  margin-top: 80px;
+  justify-content: center; /* Centre les boutons horizontalement */
+}
+
+.button {
+  background-color: #A15DCE; /* Couleur violette de base pour les boutons */
+  color: white; /* Couleur du texte */
+  padding: 10px 20px; /* Espace interne autour du texte */
+  border: none; /* Retire la bordure par défaut */
+  border-radius: 4px; /* Coins arrondis */
+  text-decoration: none; /* Retire le soulignement des liens */
+  font-family: 'Designer', sans-serif; /* Police utilisée */
+  font-size: 15px; /* Taille de police des boutons */
+  transition: background-color 0.3s ease; /* Transition douce pour le survol */
+}
+
+.button:hover {
+  background-color: #8E4BCE; /* Couleur légèrement plus sombre pour l'effet de survol */
+}
+
+.buy-button {
+  background-color: #7708C7; /* Couleur violette spécifique pour le bouton "BUY NOW" */
+}
+
+.buy-button:hover {
+  background-color: #5E2B9D; /* Couleur plus sombre au survol */
+}
+
+.highlight-genre {
+  color: #A15DCE;
+}
+p {
+  color: white;
+}
+
+
+
+/* ========== UPCOMMING STYLES ========== */
+
+.highlight5 {
+  color: white;
+  font-family: 'Designer';
+}
+
+.highlight6 {
+  color: #8E4BCE;
+  font-family: 'Designer';
+}
+
+.upcoming-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap; /* Empêche le passage à la ligne, tous les blocs sur la même ligne */
+  margin: 20px;
+  margin-top: 50px;
+}
+
+.game-block {
+  background-color: #09012A; /* Couleur de fond pour chaque bloc */
+  border-radius: 8px; /* Coins arrondis */
+  overflow: hidden; /* Cache les débordements */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour donner de la profondeur */
+  width: 32%; /* Largeur des blocs ajustée pour tenir sur la même ligne */
+  margin: 0 10px; /* Espace horizontal entre les blocs */
+  padding: 15px; /* Espace intérieur */
+  color: white; /* Couleur du texte */
+}
+
+.game-block img {
+  width: 100%; /* L'image prend toute la largeur du bloc */
+  height: auto; /* Maintient les proportions de l'image */
+  border-bottom: 2px solid #A15DCE; /* Bordure en bas de l'image */
+}
+
+.genre {
+  font-size: 12px; /* Taille de la police pour le genre */
+  color: #A15DCE; /* Couleur du texte pour le genre */
+  margin: 5px 0; /* Marge autour du genre */
+}
+
+.game-title {
+  font-size: 18px; /* Taille de la police pour le titre du jeu */
+  font-weight: bold; /* Titre en gras */
+  margin: 10px 0; /* Marge autour du titre */
+}
+
+.description {
+  font-size: 14px; /* Taille de la police pour la description */
+  margin: 10px 0; /* Marge autour de la description */
+}
+
+.price-container {
+  display: flex; /* Permet de disposer les prix en ligne */
+  justify-content: space-between; /* Espace entre les prix */
+  align-items: center; /* Aligne les prix verticalement */
+  margin-top: 10px; /* Marge au-dessus des prix */
+}
+
+.old-price {
+  font-size: 14px; /* Taille de la police pour l'ancien prix */
+  text-decoration: line-through; /* Texte barré */
+  color: #A15DCE; /* Couleur pour l'ancien prix */
+}
+
+.new-price {
+  font-size: 20px; /* Taille de la police pour le nouveau prix */
+  font-weight: bold; /* Nouveau prix en gras */
+  color: white; /* Couleur pour le nouveau prix */
+}
+
+.upcoming-title {
+  display: flex; /* Aligne le texte en ligne */
+  align-items: center; /* Centre verticalement */
+  font-size: 24px; /* Taille de police pour le titre, remplacez par la taille exacte que vous utilisez pour 'Tendance actuelle' */
+  margin-bottom: 20px; /* Espace sous le titre */
+  font-family: 'Designer', sans-serif; /* Applique la police Designer */
+}
+
+.highlight {
+  color: #A15DCE; /* Couleur violet pour le 'À' */
+  font-family: 'Designer';
+}
+
+.highlight2 {
+  color: white; /* Couleur blanche pour 'venir' */
+  font-family: 'Designer';
+}
+
+.titreupcomming{
+    margin-top: 100px;
+}
+
+.game-block img {
+  width: 100%; /* L'image prend toute la largeur du bloc */
+  height: 200px; /* Fixez une hauteur fixe pour toutes les images */
+  object-fit: cover; /* Maintient le ratio d'aspect tout en remplissant le bloc */
+  border-bottom: 2px solid #A15DCE; /* Bordure en bas de l'image */
+  border-radius: 10px;
+}
+
+.price-container {
+  display: flex; /* Permet de disposer les prix en ligne */
+  align-items: center; /* Aligne les prix verticalement */
+  margin-top: 10px; /* Marge au-dessus des prix */
+}
+
+.old-price {
+  font-size: 14px; /* Taille de la police pour l'ancien prix */
+  text-decoration: line-through; /* Texte barré */
+  color: #A15DCE; /* Couleur pour l'ancien prix */
+}
+
+.new-price {
+  font-size: 25px; /* Taille de la police pour le nouveau prix */
+  font-weight: bold; /* Nouveau prix en gras */
+  color: white; /* Couleur pour le nouveau prix */
+  margin-right: 260px;
+}
+
+.button-container {
+  display: flex; /* Aligne les boutons horizontalement */
+  margin-top: 15px; /* Marge au-dessus des boutons */
+  width: 100%; /* Assure que le conteneur occupe toute la largeur disponible */
+}
+
+.details-button,
+.preorder-button {
+  background-color: #09012A; /* Couleur de fond noire pour les deux boutons */
+  border: 2px solid #A15DCE; /* Contour violet pour les deux boutons */
+  color: white; /* Couleur du texte */
+  border-radius: 5px; /* Coins arrondis */
+  padding: 5px 10px; /* Espacement interne */
+  cursor: pointer; /* Change le curseur au survol */
+  font-family: 'Designer', sans-serif; /* Police */
+  font-size: 14px; /* Taille du texte */
+  text-decoration: none; /* Enlève la décoration par défaut des liens */
+  flex: 1; /* Les deux boutons prennent la même largeur */
+  margin-right: 5px; /* Espace entre les boutons */
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Effet de transition */
+}
+
+.details-button {
+  background-color: #09012A; /* Fond noir pour le bouton Détails */
+}
+
+.preorder-button {
+  background-color: #A15DCE; /* Fond violet pour le bouton Pré-commander */
+  border: none; /* Pas de bordure pour le bouton Pré-commander */
+}
+
+/* Si vous ne voulez pas d'espace entre les boutons */
+.details-button {
+  margin-right: 5px; /* Retire l'espace entre le bouton Détails et le bouton suivant */
+}
+
+.details-button:hover,
+.preorder-button:hover {
+  background-color: #8A4DAB; /* Couleur de fond au survol */
+}
+
+/* ==================== Section Vidéo ==================== */
+.video-section {
+  width: 100%; /* La section prend toute la largeur de la page */
+  margin-top: 100px; /* Espace au-dessus de la section */
+}
+
+.background-container {
+  width: 100%; /* Prend toute la largeur de la section */
+  background-color: #004494; /* Fond coloré uniquement sur le conteneur */
+  padding: 20px; /* Espace autour du titre */
+  text-align: center; /* Centre le titre */
+  border-radius: 20px;
+}
+
+.video-section video {
+  width: 100%; /* La vidéo prend toute la largeur de la section */
+  height: auto;
+  max-height: 600px;
+  margin-top: 20px; /* Espace entre le conteneur coloré et la vidéo */
+  border-radius: 20px;
+}
+
+
+
+/* ==================== Section Meilleures Ventes ==================== */
+
+.highlight7{
+  color: white;
+  font-family: 'Designer';
+}
+
+.highlight8{
+  color: #8A4DAB;
+  font-family: Designer;
+}
+
+
+.titre-bestseller{
+  margin-top: 100px;
+}
+
+.titre-Avis {
+  margin-top: 100px;
+}
+
+
+/* ====== Section de Profil - Configuration de la Section ====== */
+
+
+.highlight9{
+  color: white;
+  font-family: 'designer';
+}
+
+.highlight10{
+  color: #8A4DAB;
+  font-family: 'designer';
+}
+
+.profile-section {
+  width: 100%; /* Utilise 100% pour éviter le débordement */
+  background-color: #09012A;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  box-sizing: border-box; /* Assure que les paddings ne dépassent pas la largeur */
+}
+
+
+/* ====== Bloc Profil ====== */
+
+.profile-block, .bio-block, .game-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centre horizontalement */
+  justify-content: center; /* Centre verticalement */
+  padding: 20px;
+  text-align: center;
+  color: white;
+  width: 30%;
+}
+
+.profile-block h3 {
+  margin: 0px 0; /* Ajustez cette valeur selon vos besoins */
+}
+
+
+
+/* Image de profil circulaire */
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* Icônes sociales */
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-icon {
+  width: 25px; /* Ajustez la taille selon vos préférences */
+  height: auto; /* Conserve les proportions */
+  cursor: pointer; /* Ajoute un curseur pointer au survol */
+}
+
+/* ====== Bloc Bio ====== */
+
+.bio-block {
+  border-radius: 8px;
+}
+
+.bio-block p {
+  margin-bottom: 15px;
+}
+
+/* Note en étoiles */
+
+.rating {
+  font-size: 20px;
+  color: #FFD700;
+}
+
+/* ====== Bloc Jeu ====== */
+
+.game-section {
+  text-align: center;
+}
+
+/* Image du jeu */
+
+.game-picture {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.highlight11{
+  color: white;
+  font-family: 'designer';
+}
+
+.highlight12{
+  color: #8A4DAB;
+  font-family: 'designer';
+}
+
+/* Titre du jeu */
+
+.game-section h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 5px 0; /* Ajustez cette valeur selon vos besoins */
+}
+
+/* Section principale */
+.game-release-section {
+  display: flex; /* Utilise flexbox pour la mise en page */
+  justify-content: space-between; /* Espacement entre le contenu et l'image */
+  align-items: center; /* Centre verticalement */
+  width: 100%; /* Assure que la section occupe toute la largeur */
+  margin-top: 100px;
+}
+
+/* Conteneur du contenu (texte) */
+.game-release-content {
+  display: flex;
+  flex-direction: column; /* Organise le contenu en colonne */
+  justify-content: center; /* Centre verticalement */
+  align-items: flex-start; /* Aligne à gauche */
+  width: 60%; /* Prend 60% de l'espace de la section */
+  margin-left: 100px; /* Décale le contenu vers la droite, tu peux ajuster cette valeur */
+}
+
+/* Conteneur de l'image */
+.game-release-image {
+  width: 35%; /* L'image prend 35% de l'espace de la section */
+  display: flex;
+  justify-content: center; /* Centre l'image horizontalement */
+  align-items: center; /* Centre l'image verticalement */
+}
+
+.game-release-image img {
+  max-width: 100%; /* L'image s'ajuste à la taille du conteneur */
+  height: auto; /* Garde les proportions de l'image */
+}
+
+.release-status {
+  color: #A15DCE;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.release-game-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.release-game-description {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.release-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.release-details-btn, .release-preorder-btn {
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.release-details-btn {
+  background-color: #222;
+}
+
+.release-preorder-btn {
+  background-color: #A15DCE;
+}
+
+.release-timer {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.release-timer-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.release-timer-number {
+  background-color: #A15DCE;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  transform: skewX(-15deg);
+  display: block;
+  margin-bottom: 5px;
+}
+
+.release-timer-label {
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.game-titletotty{
+  font-size: 18px; /* Taille de la police pour le titre du jeu */
+  font-weight: bold; /* Titre en gras */
+  margin: 10px 0; /* Marge autour du titre */
+  color: #8A4DAB;
+}
+
+
+
+
+/* ========== Consultation STYLES ========== */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.consultation-section {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  background-color: #050017;
+  margin-top: 100px;
+}
+
+.consultation-content {
+  display: flex;
+  max-width: 1000px;
+  width: 90%;
+  align-items: center;
+}
+
+.consultation-image {
+  position: relative;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.consultation-image img {
+  width: 100%;
+  border-radius: 10px;
+  filter: brightness(0.8);
+}
+
+.overlay-text {
+  position: absolute;
+  color: #ffffff;
+  font-size: 3em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.overlay-text span {
+  color: #A15DCE;
+}
+
+.consultation-form {
+  width: 50%;
+  padding: 20px;
+}
+
+.consultation-form h3 {
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+.consultation-title {
+  color: #A15DCE;
+  font-size: 2em;
+  margin: 5px 0 20px 0;
+}
+
+.consultation-form p {
+  margin-bottom: 20px;
+  font-size: 0.9em;
+  line-height: 1.6em;
+  color: #a0a0a0;
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.consultation-form input[type="text"],
+.consultation-form input[type="email"],
+.consultation-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2b2b3d;
+  color: #ffffff;
+}
+
+.consultation-form textarea {
+  resize: none;
+  height: 80px;
+}
+
+.submit-btn {
+  background-color: #A15DCE;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.submit-btn:hover {
+  background-color: #8e4fba;
+}
+
+
+/* Footer Section Styling */
+
+* {
+  box-sizing: border-box;
+}
+
+
+.footer-section {
+  background-color: #0d0b1f;
+  padding: 50px 0px 0px 0px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-column {
+  width: 30%;
+}
+
+.footer-column h3 {
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+.footer-column h3 span {
+  color: #A15DCE;
+}
+
+.footer-column p {
+  color: #a0a0a0;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  margin: 15px 0;
+}
+
+.social-icons a img {
+  width: 40px;
+  margin: 0 5px;
+}
+
+.news-item {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.news-item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.news-item h4 {
+  font-size: 0.9em;
+  color: #ffffff;
+  margin: 0;
+}
+
+.news-item p {
+  font-size: 0.8em;
+  color: #a0a0a0;
+}
+
+/* Conteneur de boutons d'applications */
+.app-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+/* Boutons individuels avec image */
+.app-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1b1231; /* Couleur de fond pour imiter votre exemple */
+  padding: 15px;
+  border-radius: 8px;
+  width: 140px; /* Ajustez si nécessaire */
+  height: 50px; /* Ajustez si nécessaire */
+  transition: transform 0.3s ease;
+}
+
+.app-button:hover {
+  transform: scale(1.05); /* Effet zoom au survol */
+}
+
+/* Images dans les boutons */
+.app-button img {
+  width: 24px; /* Ajustez la taille de l'icône selon vos préférences */
+  height: auto;
+}
+
+.google-play {
+  background-color: #34a853;
+}
+
+.steam {
+  background-color: #171a21;
+}
+
+.apple-store {
+  background-color: #333333;
+}
+
+.winstore {
+  background-color: #0078d6;
+}
+
+.footer-bottom {
+  background-color: #000000;
+  color: #a0a0a0;
+  font-size: 0.8em;
+}
+
+.footer-bottom a {
+  color: #A15DCE;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom p {
+  margin: 0;
+  padding: 15px 0;
+}
+
+
+/** RESPONSIVE /
+
+
+
+/* ========== MOBILE STYLES ========== */
+@media (max-width: 768px) {
+  header {
+    height: 500px;
+  }
+
+  .buttonlogo a {
+    font-size: 20px;
+  }
+
+  ul {
+    display: none; /* Cache le menu de navigation pour mobile */
+  }
+
+  .nav-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .nav-buttons a {
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-section {
+    padding: 40px 20px;
+  }
+
+  .bordered-title {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .paragraph-group p {
+    font-size: 16px;
+  }
+
+  .button-container a {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+
+  .button, .details {
+    width: 100%;
+  }
+}
+
+/* ========== TABLET STYLES ========== */
+@media (max-width: 1024px) {
+  header {
+    height: 550px;
+  }
+
+  .buttonlogo a {
+    font-size: 22px;
+  }
+
+  .hero-section {
+    padding: 40px 20px;
+  }
+
+  .bordered-title {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .paragraph-group p {
+    font-size: 17px;
+  }
+
+  .button-container a {
+    font-size: 15px;
+    padding: 14px 22px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== RESPONSIVE DESIGN ========== */
+@media (max-width: 1200px) {
+  .buttonlogo,
+  nav ul,
+  .nav-buttons a.buttonnav {
+    width: 100px;
+  }
+}
